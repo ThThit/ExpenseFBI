@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ExpenseFBI</string>
+    <string name="nav_expense">Expense</string>
+    <string name="nav_add_expense">Add</string>
+    <string name="nav_statstics">Overview</string>
+    <string name="nav_setting">Setting</string>
 </resources>
