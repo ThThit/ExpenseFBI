@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
     <item android:id="@+id/nav_expense"
-        android:icon="@drawable/ic_setting"
+        android:icon="@drawable/ic_add"
         android:title="@string/nav_add_expense"/>
     <item android:id="@+id/nav_add_expense"
-        android:icon="@drawable/ic_setting"
+        android:icon="@drawable/ic_dollar"
         android:title="@string/nav_expense"/>
     <item android:id="@+id/nav_statistic"
-        android:icon="@drawable/ic_setting"
+        android:icon="@drawable/ic_book"
         android:title="@string/nav_statstics"/>
     <item android:id="@+id/nav_setting"
         android:icon="@drawable/ic_setting"
