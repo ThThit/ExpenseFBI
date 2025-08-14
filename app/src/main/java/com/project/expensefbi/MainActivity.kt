@@ -31,9 +31,9 @@ class MainActivity : AppCompatActivity() {
         // default fragment
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.nav_host_fragment, ExpenseOverviewFragment())
+                .replace(R.id.nav_host_fragment, AddExpenseFragment())
                 .commit()
-            bottomNavigationView.selectedItemId = R.id.nav_expense
+            bottomNavigationView.selectedItemId = R.id.nav_add_expense
         }
 
         // fragment selection
